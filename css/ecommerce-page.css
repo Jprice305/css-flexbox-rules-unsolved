@@ -251,6 +251,8 @@ i.fa-th-list {
 }
 
 .lines .product {
+  display: flex;
+  flex-direction: row;
   padding: 20px;
 }
 
@@ -267,6 +269,7 @@ i.fa-th-list {
 }
 
 .lines .product-info {
+  margin: 10px;
 }
 
 .lines .product-action {
@@ -283,6 +286,7 @@ i.fa-th-list {
 .lines-action .product-image-wrapper {
   min-width: 300px;
   height: 200px;
+  width: 200px;
 }
 
 .lines-action .product-data {
